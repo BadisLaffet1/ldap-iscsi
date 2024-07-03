@@ -1,0 +1,22 @@
+dn: dc=badis,dc=tn
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: camp
+dc: badis
+
+dn: ou=users,dc=badis,dc=tn
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=badis,dc=tn
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=admin,dc=badis,dc=tn
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: Directory Manager
+userPassword: root
+
